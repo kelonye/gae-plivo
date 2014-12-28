@@ -1,0 +1,7 @@
+
+*.pyc
+
+dist
+gae_plivo.egg-info
+test/lib
+test/secrets.yml

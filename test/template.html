@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <title>SMS</title>
+    <style>
+      button, input{
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        outline: none;
+        border: 1px solid #ddd;
+      }
+      input{
+      }
+      button{
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <br/>
+    {{ response }}
+    <br/>
+    <form action='' method='post'>
+      <input name='number' value='' type='tel' placeholder='enter e.164 compliant number' required />
+      <input name='msg' value='' type='text' placeholder='message' required />
+      <button type='submit'>send</button>
+    </form>
+  </body>
+</html>
