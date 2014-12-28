@@ -1,4 +1,4 @@
-GAE Plivo utilty
+GAE Plivo utility (WIP)
 ---
 
 Adapted from [plivo/plivo-python](https://github.com/plivo/plivo-python)

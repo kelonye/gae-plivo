@@ -57,7 +57,9 @@ class SMSView(webapp.RequestHandler):
         p = plivo.RestAPI(conf['PLIVO_AUTH_ID'], conf['PLIVO_AUTH_TOKEN'])
 
         template_values = {
-            'response': p.send_message(message_params)
+            'response': p.send_message(message_params),
+            'number': destination_number,
+            'msg': text
         }
 
         path = os.path.join(
