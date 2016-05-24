@@ -13,7 +13,7 @@ Features
 Install
 ---
 
-    $ pip install gae-plivio
+    $ pip install gae-plivo
 
 Use
 ---
@@ -53,7 +53,7 @@ Example
 
   echo "PLIVO_NUMBER: ''" > test/secrets.yml
   echo "PLIVO_AUTH_ID: ''" >> test/secrets.yml
-  echo "PLIVO_AUTH_TOKEN: ''" >> test/secrets.yml"
+  echo "PLIVO_AUTH_TOKEN: ''" >> test/secrets.yml
   make deps example
 
 ```
